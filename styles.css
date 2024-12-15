@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-container {
+    width: 1604px;
+    height: 2344px;
+    background-color: #E4EBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 96px;
+    gap: 64px;
+}
+
+.main-container {
+    width: 1280px;
+    height: 2152px;
+    background-color: #FFF;
+    display: flex;
+    padding: 96px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+}
+
+.headings-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.headings {
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.purple {
+    color: #6941C6;
+    text-align: center;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.headings h1 {
+    color: #181D27;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    font-size: 40px;
+    font-weight: 600;
+    line-height:44px;
+    letter-spacing: -0.8px;
+}
+
+.paragraph {
+    color: #535862;
+    text-align: center;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+}
+
+.section {
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 96px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+
+}
+
+.checklist {
+    display: flex;
+    padding-left: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.checklist-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.checklist-item p {
+    color: #535862;
+    font-family: "Inder";
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    width: 553px;
+}
+
+.container-info h3 {
+    color: #181D27; 
+    font-family: "Inter", serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.9px;
+}
+
+.container-info p {
+    color: #535862;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Inter", serif;
+    letter-spacing: 0.2px;
+}
+
+.second {
+    padding: 0;
+}
